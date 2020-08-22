@@ -5,7 +5,7 @@
 // Example "sendtoaddress" function in PHP
 function sendToAddress(){
             // Replace this variable with something that asks or automatically pulls users address.
-			// The address used is only for example.
+            // The address used is only for example.
             $getUserAddress = "CRWLG3bKURbo8UvLGhamenB91EmaqpXS4bkP";
             // Set the amount you would like to give, in Crown.
             $getAmount = "0.01";
@@ -31,17 +31,17 @@ function sendToAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response; 
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response; 
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function
@@ -49,7 +49,7 @@ sendToAddress();
 
 // Example "sendtoaddress" function in PHP for Wordpress
 function sendToAddress(){
-			// Get current user
+            // Get current user
             $getUser = wp_get_current_user();
             // Get current user ID
             $getID = $getUser->ID;
@@ -79,17 +79,17 @@ function sendToAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response; 
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response; 
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function
@@ -100,7 +100,7 @@ sendToAddress();
 // Example "sendtoaddress" function in PHP
 function sendToAddress(){
             // Replace this variable with something that asks or automatically pulls users address.
-			// The address used is only for example.
+            // The address used is only for example.
             $getUserAddress = "tCRWHT2nySnhteUgP2icpUEPtk1u2EZHitJZ3";
             // Set the amount you would like to give, in Crown.
             $getAmount = "0.01";
@@ -126,17 +126,17 @@ function sendToAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response; 
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response; 
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                    echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function
@@ -144,7 +144,7 @@ sendToAddress();
 
 // Example "sendtoaddress" function in PHP for Wordpress
 function sendToAddress(){
-			// Get current user
+            // Get current user
             $getUser = wp_get_current_user();
             // Get current user ID
             $getID = $getUser->ID;
@@ -174,17 +174,17 @@ function sendToAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response; 
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response; 
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function

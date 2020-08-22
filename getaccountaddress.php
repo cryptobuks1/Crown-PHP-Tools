@@ -28,19 +28,19 @@ function getAccountAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response;
-                 $address = json_decode($response);
-                 echo "Your account address<br>".$address->result;
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response;
+            $address = json_decode($response);
+            echo "Your account address<br>".$address->result;
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function
@@ -72,16 +72,16 @@ function getAccountAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-                $response = curl_exec($curl);
-                 $response;
-                 $address = json_decode($response);
-                 echo "Your account address<br>".$address->result;
-                 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response;
+            $address = json_decode($response);
+            echo "Your account address<br>".$address->result;
+            $err = curl_error($curl);
 
                 curl_close($curl);
                 if ($err) {
 
-                    echo "cURL Error #:" . $err;
+                echo "cURL Error #:" . $err;
                 } else {
                     return $response;
                 } 
@@ -118,19 +118,19 @@ function getAccountAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-				$response = curl_exec($curl);
-				 $response;
-                 $address = json_decode($response);
-                 echo "Your account address<br>".$address->result;
-				 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response;
+            $address = json_decode($response);
+            echo "Your account address<br>".$address->result;
+            $err = curl_error($curl);
 
-				curl_close($curl);
-				if ($err) {
+                curl_close($curl);
+                if ($err) {
 
-					echo "cURL Error #:" . $err;
-				} else {
-					return $response;
-				} 
+                echo "cURL Error #:" . $err;
+                } else {
+                    return $response;
+                } 
 }
 
 // Execute the function
@@ -163,16 +163,16 @@ function getAccountAddress(){
                 "user: RPCUSER:RPCPASS"
             ),
             ));
-                $response = curl_exec($curl);
-                 $response;
-                 $address = json_decode($response);
-                 echo "Your account address<br>".$address->result;
-                 $err = curl_error($curl);
+            $response = curl_exec($curl);
+            $response;
+            $address = json_decode($response);
+            echo "Your account address<br>".$address->result;
+            $err = curl_error($curl);
 
                 curl_close($curl);
                 if ($err) {
 
-                    echo "cURL Error #:" . $err;
+                echo "cURL Error #:" . $err;
                 } else {
                     return $response;
                 } 
