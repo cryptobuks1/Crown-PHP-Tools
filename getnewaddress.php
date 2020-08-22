@@ -75,7 +75,7 @@ function getNewAddress(){
             $response = curl_exec($curl);
             $response;
             $address = json_decode($response);
-            echo "Your account address<br>".$address->result;
+            echo "Your new address<br>".$address->result;
             $err = curl_error($curl);
 
                 curl_close($curl);
@@ -166,7 +166,7 @@ function getNewAddress(){
             $response = curl_exec($curl);
             $response;
             $address = json_decode($response);
-            echo "Your account address<br>".$address->result;
+            echo "Your new address<br>".$address->result;
             $err = curl_error($curl);
 
                 curl_close($curl);
