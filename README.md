@@ -45,3 +45,9 @@ For wordpress use, this function shows the logged in users account balance
 
 ## "getblockcount.php" Function
 Simple getblockcount command which returns current blockchain height.
+
+## "masternodecount.php" Function
+Simple masternode(count) command to show the amount of masternodes opperating on the network.
+
+## "systemnodecount.php" Function
+Simple systemnode(count) command to show the amount of masternodes opperating on the network.
