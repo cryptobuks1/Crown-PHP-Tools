@@ -37,17 +37,23 @@ If you would like to generate another account address for the logged in user the
 
 ## "listtransactions.php" Function
 For non wordpress use, this function will show the last 50 transactions made from the admin/owerner wallet.  
-For wordpress use, this function shows the logged in user their last n number of transactions.
+For wordpress use, this function shows the logged in user their last n number of transactions.  
 
 ## "getbalance.php" Function
 For non wordpress use, this function will show the total balance of the admin/owerner wallet.  
-For wordpress use, this function shows the logged in users account balance
+For wordpress use, this function shows the logged in users account balance.  
 
 ## "getblockcount.php" Function
-Simple getblockcount command which returns current blockchain height.
+Simple getblockcount command which returns current blockchain height.  
 
 ## "masternodecount.php" Function
-Simple masternode(count) command to show the amount of masternodes opperating on the network.
+Simple masternode(count) command to show the amount of masternodes opperating on the network.  
 
 ## "systemnodecount.php" Function
-Simple systemnode(count) command to show the amount of masternodes opperating on the network.
+Simple systemnode(count) command to show the amount of masternodes opperating on the network.  
+
+## "mnbudgetpassing.php" Function
+Shows projected passing proposals.  
+
+## "mnbudgetnextsblock.php" Function
+Shows the next superblock height.    
