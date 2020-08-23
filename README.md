@@ -38,3 +38,7 @@ If you would like to generate another account address for the logged in user the
 ## "listtransactions.php" Function
 For non wordpress use, this function will show the last 50 transactions made from the admin/owerner wallet.  
 For wordpress use, this function shows the logged in user their last n number of transactions.
+
+## "getbalance.php" Function
+For non wordpress use, this function will show the total balance of the admin/owerner wallet.  
+For wordpress use, this function shows the logged in users account balance
