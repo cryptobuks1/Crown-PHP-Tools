@@ -42,3 +42,6 @@ For wordpress use, this function shows the logged in user their last n number of
 ## "getbalance.php" Function
 For non wordpress use, this function will show the total balance of the admin/owerner wallet.  
 For wordpress use, this function shows the logged in users account balance
+
+## "getblockcount.php" Function
+Simple getblockcount command which returns current blockchain height.
