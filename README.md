@@ -32,5 +32,9 @@ It will send from the admin wallet "0" account and sent to the logged in user.
 
 ## "getnewaddress.php" Function
 This function has two uses.  
-If you would like a user to just get a random address then user the function without wordpress features. 
-If you would like to generate another account address for the logged in user then use the wordpress function.
+If you would like a user to just get a random address then user the function without wordpress features.  
+If you would like to generate another account address for the logged in user then use the wordpress function.  
+
+## "listtransactions.php" Function
+For non wordpress use, this function will show the last 50 transactions made from the admin/owerner wallet.  
+For wordpress use, this function shows the logged in user their last n number of transactions.
