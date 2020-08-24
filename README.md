@@ -63,3 +63,6 @@ Shows the network difficulty.
 
 ## "getnetworkhashps.php" Function
 Shows the network hashrate.  
+
+## "nftokensupply.php" Function
+Shows the total amount of tokens on the Crown Platform.  
