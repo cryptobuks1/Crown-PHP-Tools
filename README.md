@@ -56,4 +56,7 @@ Simple systemnode(count) command to show the amount of masternodes opperating on
 Shows projected passing proposals.  
 
 ## "mnbudgetnextsblock.php" Function
-Shows the next superblock height.    
+Shows the next superblock height.  
+
+## "getdifficulty.php" Function
+Shows the network difficulty. 
