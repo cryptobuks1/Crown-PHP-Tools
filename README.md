@@ -59,4 +59,7 @@ Shows projected passing proposals.
 Shows the next superblock height.  
 
 ## "getdifficulty.php" Function
-Shows the network difficulty. 
+Shows the network difficulty.  
+
+## "getnetworkhashps.php" Function
+Shows the network hashrate.  
