@@ -66,3 +66,9 @@ Shows the network hashrate.
 
 ## "nftokensupply.php" Function
 Shows the total amount of tokens on the Crown Platform.  
+
+## "balanceof.php"
+There are 4 versions of this function.  
+Two with wordpress functionallity and two without.
+The two without will need a way of pulling Crown addresses while the wordpress
+functions already pull. 
